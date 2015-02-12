@@ -1,0 +1,92 @@
+{
+     "interfaceType": "GET",
+     "requiredParameters": [],
+     "responseParameters": [
+          {
+               "id": "01",
+               "kind": "string",
+               "name": "word",
+               "rule": "@word",
+               "array": [],
+               "nameVerify": "name_1423721362000",
+               "ruleVerify": "rule_1423721362000",
+               "remark": "随机字符"
+          },
+          {
+               "id": "02",
+               "kind": "mock",
+               "name": "number|1-10",
+               "rule": "1",
+               "array": [],
+               "nameVerify": "name_1423721412000",
+               "ruleVerify": "rule_1423721412000",
+               "remark": "1-10 数字随机生成"
+          },
+          {
+               "id": "03",
+               "kind": "mock",
+               "name": "array",
+               "rule": "['a','b']",
+               "array": [],
+               "nameVerify": "name_1423721482000",
+               "ruleVerify": "rule_1423721482000",
+               "remark": "简单的数组"
+          },
+          {
+               "id": "04",
+               "kind": "mock",
+               "name": "randomArray|1",
+               "rule": "['a','b']",
+               "array": [],
+               "nameVerify": "name_1423721578000",
+               "ruleVerify": "rule_1423721578000",
+               "remark": "a,b 随机获取"
+          },
+          {
+               "id": "05",
+               "kind": "object",
+               "name": "object",
+               "rule": "--",
+               "array": [],
+               "nameVerify": "name_1423721695000",
+               "ruleVerify": "rule_1423721695000",
+               "remark": "对象"
+          },
+          {
+               "id": "0501",
+               "kind": "string",
+               "name": "email",
+               "rule": "@email",
+               "array": [],
+               "nameVerify": "name_1423721802000",
+               "ruleVerify": "rule_1423721802000"
+          },
+          {
+               "id": "06",
+               "kind": "array(object)",
+               "name": "objectArray|2",
+               "rule": "--",
+               "array": [],
+               "nameVerify": "name_1423721892000",
+               "ruleVerify": "rule_1423721892000",
+               "remark": "数组重复生成2遍"
+          },
+          {
+               "id": "0601",
+               "kind": "mock",
+               "name": "id|+1",
+               "rule": "1",
+               "array": [
+                    "06"
+               ],
+               "nameVerify": "name_1423721917000",
+               "ruleVerify": "rule_1423721917000",
+               "remark": "id数据叠加"
+          }
+     ],
+     "reqError": [],
+     "docError": [],
+     "interfaceUrl": "/demo/test.json",
+     "interfaceName": "/demo/test.json",
+     "lazyLoad": "no"
+}
