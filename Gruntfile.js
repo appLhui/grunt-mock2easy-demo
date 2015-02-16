@@ -97,7 +97,8 @@ module.exports = function (grunt) {
             return [
               connect.static('.tmp'),
               connect.static('test'),
-              connect().use('/bower_components', connect.static('./bower_components')),
+              connect().use('/bower_components',
+              connect.static('./bower_components')),
               connect.static(config.app)
             ];
           }
@@ -114,12 +115,13 @@ module.exports = function (grunt) {
     mock2easy: {
       test:{
         options: {
-          port:3000,
+          port:4000,
           lazyLoadTime:3000,
           database:'database',
           doc:'doc',
           keepAlive:false,  // 是否独立运行
-          ignoreField:[]  // 默认忽略的接口入参
+          ignoreField:[],  // 默认忽略的接口入参
+          interfaceSuffix:'.json'
         }
       }
     },

@@ -1,8 +1,8 @@
-## /demo/test.json
+## 我是一个 jsonp 接口
 #### 接口类型
 	GET
 #### 请求URL
-	/demo/test.json
+	/demo/jsonpdemo.json
 #### 返回接口
 ```js
 {

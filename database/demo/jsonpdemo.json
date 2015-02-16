@@ -85,8 +85,12 @@
           }
      ],
      "reqError": [],
-     "docError": [],
-     "interfaceUrl": "/demo/test.json",
-     "interfaceName": "/demo/test.json",
-     "lazyLoad": "no"
+     "docError": [
+          "接口文档缺少［a］做为请求参数"
+     ],
+     "interfaceUrl": "/demo/jsonpdemo.json",
+     "interfaceName": "我是一个 jsonp 接口",
+     "lazyLoad": "no",
+     "isJsonp": true,
+     "jsonpCallback": "flightHandler"
 }
