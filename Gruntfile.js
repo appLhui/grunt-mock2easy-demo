@@ -121,7 +121,8 @@ module.exports = function (grunt) {
           doc:'doc',
           keepAlive:false,  // 是否独立运行
           ignoreField:[],  // 默认忽略的接口入参
-          interfaceSuffix:'.json'
+          interfaceSuffix:'.json',
+          preferredLanguage:'cn'
         }
       }
     },

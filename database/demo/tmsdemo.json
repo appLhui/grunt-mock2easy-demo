@@ -1,0 +1,487 @@
+{
+     "interfaceType": "GET",
+     "requiredParameters": [],
+     "responseParameters": [
+          {
+               "id": "00",
+               "kind": "object",
+               "name": "config",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "命中配置"
+          },
+          {
+               "id": "0001",
+               "kind": "mock",
+               "name": "toptip",
+               "rule": "true",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "topbar官网推荐位"
+          },
+          {
+               "id": "0002",
+               "kind": "object",
+               "name": "banner",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "首页广告第二帧配置"
+          },
+          {
+               "id": "000202",
+               "kind": "string",
+               "name": "floatContent",
+               "rule": "xxxx.jpg",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "banner浮动层"
+          },
+          {
+               "id": "000203",
+               "kind": "string",
+               "name": "link",
+               "rule": "xxx.html",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "banner链接"
+          },
+          {
+               "id": "000204",
+               "kind": "string",
+               "name": "ga",
+               "rule": "首页B.banner.上海点",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "ga打点"
+          },
+          {
+               "id": "000205",
+               "kind": "mock",
+               "name": "target",
+               "rule": "true",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "是否外链打开"
+          },
+          {
+               "id": "000206",
+               "kind": "string",
+               "name": "backgroundImg",
+               "rule": "xxx.jpg",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "banner背景图"
+          },
+          {
+               "id": "000207",
+               "kind": "string",
+               "name": "backgroundColor",
+               "rule": "#fff",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "banner背景色"
+          },
+          {
+               "id": "0003",
+               "kind": "object",
+               "name": "detail",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "BI命中配置"
+          },
+          {
+               "id": "000301",
+               "kind": "object",
+               "name": "rds+oss",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "命中名称"
+          },
+          {
+               "id": "00030101",
+               "kind": "string",
+               "name": "kind",
+               "rule": "0",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "命中的模版类型"
+          },
+          {
+               "id": "00030102",
+               "kind": "string",
+               "name": "title",
+               "rule": "存储产品推荐/存储使用场景",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "标题"
+          },
+          {
+               "id": "00030103",
+               "kind": "string",
+               "name": "info",
+               "rule": "<a href='#'>快速部署业务环境，轻松管理云服务器</a>",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "内容"
+          },
+          {
+               "id": "00030104",
+               "kind": "string",
+               "name": "0_icon",
+               "rule": "icon-ecs",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "模版0－产品图标"
+          },
+          {
+               "id": "00030105",
+               "kind": "string",
+               "name": "0_icon_text",
+               "rule": "ECS",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "模版0－产品英文简称"
+          },
+          {
+               "id": "00030106",
+               "kind": "array(object)",
+               "name": "0_item",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "模版0－3个产品推荐方案"
+          },
+          {
+               "id": "0003010601",
+               "kind": "string",
+               "name": "title",
+               "rule": "入门$68/月",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "标题"
+          },
+          {
+               "id": "0003010602",
+               "kind": "string",
+               "name": "content",
+               "rule": "CPU:1核",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "内容，填写富文本"
+          },
+          {
+               "id": "0003010603",
+               "kind": "object",
+               "name": "button",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "订购按钮内容"
+          },
+          {
+               "id": "000301060301",
+               "kind": "string",
+               "name": "text",
+               "rule": " 立即购买",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "按钮文案"
+          },
+          {
+               "id": "000301060302",
+               "kind": "string",
+               "name": "link",
+               "rule": "xxx.html",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "按钮链接"
+          },
+          {
+               "id": "000301060303",
+               "kind": "string",
+               "name": "ga",
+               "rule": "首页B.banner.上海点",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "按钮埋点"
+          },
+          {
+               "id": "000301060304",
+               "kind": "string",
+               "name": "target",
+               "rule": "true",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "是否外链打开"
+          },
+          {
+               "id": "00030107",
+               "kind": "string",
+               "name": "1_icon",
+               "rule": "icon-ecs",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "模版1-产品图标"
+          },
+          {
+               "id": "00030108",
+               "kind": "string",
+               "name": "1_icon_text",
+               "rule": "ECS",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "模版1-产品英文简称"
+          },
+          {
+               "id": "00030109",
+               "kind": "array(object)",
+               "name": "1_item",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "模版1-产品3各方面推荐"
+          },
+          {
+               "id": "0003010901",
+               "kind": "string",
+               "name": "title",
+               "rule": "入门$68/月",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "标题"
+          },
+          {
+               "id": "0003010902",
+               "kind": "string",
+               "name": "content",
+               "rule": "CPU:1核",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "内容"
+          },
+          {
+               "id": "00030110",
+               "kind": "object",
+               "name": "1_button",
+               "rule": "",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "模版1-购买按钮"
+          },
+          {
+               "id": "0003011001",
+               "kind": "string",
+               "name": "text",
+               "rule": " 立即购买",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "按钮文案"
+          },
+          {
+               "id": "0003011002",
+               "kind": "string",
+               "name": "link",
+               "rule": "xxx.html",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "按钮链接"
+          },
+          {
+               "id": "0003011003",
+               "kind": "string",
+               "name": "ga",
+               "rule": "首页B.banner.上海点",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "按钮埋点"
+          },
+          {
+               "id": "0003011004",
+               "kind": "string",
+               "name": "target",
+               "rule": "true",
+               "array": [
+                    "00030106",
+                    "00030109",
+                    "00030114"
+               ],
+               "nameVerify": "name_1434814422000",
+               "ruleVerify": "rule_1434814422000",
+               "remark": "是否外链打开"
+          }
+     ],
+     "reqError": [],
+     "docError": [],
+     "interfaceUrl": "/demo/tmsdemo.json",
+     "interfaceName": "/demo/tmsdemo.json",
+     "lazyLoad": "no"
+}

@@ -1,92 +1,159 @@
 {
      "interfaceType": "GET",
-     "requiredParameters": [],
+     "requiredParameters": [
+          {
+               "name": "fsdf",
+               "required": true,
+               "remark": "int",
+               "nameVerify": "name_1433848360000",
+               "ruleVerify": "rule_1433848360000"
+          }
+     ],
      "responseParameters": [
           {
-               "id": "01",
+               "id": "00",
                "kind": "string",
-               "name": "word",
-               "rule": "@word",
+               "name": "code",
+               "rule": "200",
                "array": [],
-               "nameVerify": "name_1423721362000",
-               "ruleVerify": "rule_1423721362000",
-               "remark": "随机字符"
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000",
+               "remark": "错误码"
+          },
+          {
+               "id": "01",
+               "kind": "object",
+               "name": "data",
+               "rule": "",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "0101",
+               "kind": "string",
+               "name": "accountName",
+               "rule": "1655928604919847",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "0102",
+               "kind": "string",
+               "name": "accountStatus",
+               "rule": "Normal",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "0103",
+               "kind": "string",
+               "name": "class",
+               "rule": "com.aliyun.csc.sls.model.AccountModel",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "0104",
+               "kind": "string",
+               "name": "lastModifyTime",
+               "rule": "2015-01-20 21:47:35",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "0105",
+               "kind": "object",
+               "name": "quota",
+               "rule": "",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "010501",
+               "kind": "string",
+               "name": "class",
+               "rule": "com.aliyun.csc.sls.model.AccountModel$Quota",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "010502",
+               "kind": "mock",
+               "name": "project",
+               "rule": 10,
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "0106",
+               "kind": "string",
+               "name": "status",
+               "rule": "normal",
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
           },
           {
                "id": "02",
-               "kind": "mock",
-               "name": "number|1-10",
-               "rule": "1",
+               "kind": "string",
+               "name": "message",
+               "rule": "successful",
                "array": [],
-               "nameVerify": "name_1423721412000",
-               "ruleVerify": "rule_1423721412000",
-               "remark": "1-10 数字随机生成"
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
           },
           {
                "id": "03",
                "kind": "mock",
-               "name": "array",
-               "rule": "['a','b']",
+               "name": "responseDataNames",
+               "rule": "[]",
                "array": [],
-               "nameVerify": "name_1423721482000",
-               "ruleVerify": "rule_1423721482000",
-               "remark": "简单的数组"
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
           },
           {
                "id": "04",
-               "kind": "mock",
-               "name": "randomArray|1",
-               "rule": "['a','b']",
+               "kind": "object",
+               "name": "responseDatas",
+               "rule": "",
                "array": [],
-               "nameVerify": "name_1423721578000",
-               "ruleVerify": "rule_1423721578000",
-               "remark": "a,b 随机获取"
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
           },
           {
                "id": "05",
-               "kind": "object",
-               "name": "object",
-               "rule": "--",
-               "array": [],
-               "nameVerify": "name_1423721695000",
-               "ruleVerify": "rule_1423721695000",
-               "remark": "对象"
-          },
-          {
-               "id": "0501",
-               "kind": "string",
-               "name": "email",
-               "rule": "@email",
-               "array": [],
-               "nameVerify": "name_1423721802000",
-               "ruleVerify": "rule_1423721802000"
-          },
-          {
-               "id": "06",
-               "kind": "array(object)",
-               "name": "objectArray|2",
-               "rule": "--",
-               "array": [],
-               "nameVerify": "name_1423721892000",
-               "ruleVerify": "rule_1423721892000",
-               "remark": "数组重复生成2遍"
-          },
-          {
-               "id": "0601",
                "kind": "mock",
-               "name": "id|+1",
-               "rule": "1",
-               "array": [
-                    "06"
-               ],
-               "nameVerify": "name_1423721917000",
-               "ruleVerify": "rule_1423721917000",
-               "remark": "id数据叠加"
+               "name": "success",
+               "rule": true,
+               "array": [],
+               "nameVerify": "name_1426154188000",
+               "ruleVerify": "rule_1426154188000"
+          },
+          {
+               "id": "010503",
+               "kind": "string",
+               "name": "fsdfdsf",
+               "rule": "我我",
+               "array": [],
+               "nameVerify": "name_1433156103000",
+               "ruleVerify": "rule_1433156103000"
           }
      ],
-     "reqError": [],
+     "reqError": [
+          "请求参数［fsdf］应该为必填项"
+     ],
      "docError": [],
      "interfaceUrl": "/demo/jsondemo.json",
-     "interfaceName": "我是一个 json 接口",
-     "lazyLoad": "no"
+     "interfaceName": "/demo/sadsad.json",
+     "lazyLoad": "yes",
+     "responseParametersType": false,
+     "responseJson": "{\"adasd\":1213213}"
 }

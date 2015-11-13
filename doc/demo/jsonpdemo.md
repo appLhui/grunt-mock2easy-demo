@@ -1,7 +1,7 @@
 ## 我是一个 jsonp 接口
 #### 接口类型
 	GET
-#### 请求URL
+#### 接口请求地址
 	/demo/jsonpdemo.json
 #### 返回接口
 ```js
@@ -18,7 +18,12 @@
  },
  "objectArray": [ //数组重复生成2遍
   {
-   "id": 1 //id数据叠加
+   "id": 1, //id数据叠加
+   "childArray": [
+    {
+     "childNum": 1
+    }
+   ]
   }
  ]
 }

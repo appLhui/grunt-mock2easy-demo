@@ -1,25 +1,31 @@
-## 我是一个 json 接口
+## /demo/sadsad.json
 #### 接口类型
 	GET
-#### 请求URL
+#### 接口请求地址
 	/demo/jsondemo.json
+#### 请求参数
+|序号 |参数名 |是否必填 |说明 |
+| -------- | -------- |-------- |-------- |  
+|1. |fsdf |必填 |int |
 #### 返回接口
 ```js
 {
- "word": "xxxxxxx", //随机字符
- "number": "0", //1-10 数字随机生成
- "array": [ //简单的数组
-  "a",
-  "b"
- ],
- "randomArray": "a", //a,b 随机获取
- "object": { //对象
-  "email": "xxxxxxx@mock2easy.com"
+ "code": "200", //错误码
+ "data": {
+  "accountName": "1655928604919847",
+  "accountStatus": "Normal",
+  "class": "com.aliyun.csc.sls.model.AccountModel",
+  "lastModifyTime": "2015-01-20 21:47:35",
+  "quota": {
+   "class": "com.aliyun.csc.sls.model.AccountModel$Quota",
+   "project": 10,
+   "fsdfdsf": "我我"
+  },
+  "status": "normal"
  },
- "objectArray": [ //数组重复生成2遍
-  {
-   "id": 1 //id数据叠加
-  }
- ]
+ "message": "successful",
+ "responseDataNames": [],
+ "responseDatas": {},
+ "success": true
 }
 ```

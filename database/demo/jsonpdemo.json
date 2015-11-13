@@ -82,6 +82,29 @@
                "nameVerify": "name_1423721917000",
                "ruleVerify": "rule_1423721917000",
                "remark": "id数据叠加"
+          },
+          {
+               "id": "0602",
+               "kind": "array(object)",
+               "name": "childArray",
+               "rule": "--",
+               "array": [
+                    "06"
+               ],
+               "nameVerify": "name_1434809421000",
+               "ruleVerify": "rule_1434809421000"
+          },
+          {
+               "id": "060201",
+               "kind": "mock",
+               "name": "childNum",
+               "rule": "1",
+               "array": [
+                    "0602",
+                    "06"
+               ],
+               "nameVerify": "name_1434809468000",
+               "ruleVerify": "rule_1434809468000"
           }
      ],
      "reqError": [],
@@ -90,7 +113,7 @@
      ],
      "interfaceUrl": "/demo/jsonpdemo.json",
      "interfaceName": "我是一个 jsonp 接口",
-     "lazyLoad": "no",
+     "lazyLoad": "yes",
      "isJsonp": true,
      "jsonpCallback": "flightHandler"
 }
