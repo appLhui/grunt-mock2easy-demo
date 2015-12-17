@@ -27,15 +27,7 @@ function getBody(request, response, callback) {
 
 
 module.exports = function (req, res, next) {
-
-  if(typeof req.url != 'string') return next();
-
-  if(req.url.indexOf('?') ==-1){
-    if(!req.url.endsWith(".json")) return next();
-  }else{
-    var _url = req.url.split('?')[0];
-    if(!_url.endsWith(".json")) return next();
-  }
+  if( req.url.indexOf(".json") == -1) return next();
 
   getBody(req, res, function (err, body) {
     if (err) {

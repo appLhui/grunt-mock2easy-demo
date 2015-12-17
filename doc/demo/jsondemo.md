@@ -12,20 +12,18 @@
 {
  "code": "200", //错误码
  "data": {
-  "accountName": "1655928604919847",
-  "accountStatus": "Normal",
-  "class": "com.aliyun.csc.sls.model.AccountModel",
-  "lastModifyTime": "2015-01-20 21:47:35",
-  "quota": {
-   "class": "com.aliyun.csc.sls.model.AccountModel$Quota",
-   "project": 10,
-   "fsdfdsf": "我我"
-  },
-  "status": "normal"
+  "accountName": "xxxxxxx", //我是随机字符
+  "accountStatus": "0", //我是1～10的随机数
+  "quota": { //我是对象
+   "class": "com.aliyun.csc.sls.model.AccountModel$Quota"
+  }
  },
- "message": "successful",
- "responseDataNames": [],
- "responseDatas": {},
- "success": true
+ "responseDatas": "A", //我是A、B、C随机出现
+ "success": false, //我是true／false 随机出现
+ "array": [ //我是数组1～10随机出现
+  {
+   "name": "10"
+  }
+ ]
 }
 ```

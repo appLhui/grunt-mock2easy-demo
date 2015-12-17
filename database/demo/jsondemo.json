@@ -33,37 +33,21 @@
                "id": "0101",
                "kind": "string",
                "name": "accountName",
-               "rule": "1655928604919847",
+               "rule": "@word",
                "array": [],
                "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
+               "ruleVerify": "rule_1426154188000",
+               "remark": "我是随机字符"
           },
           {
                "id": "0102",
-               "kind": "string",
-               "name": "accountStatus",
-               "rule": "Normal",
+               "kind": "mock",
+               "name": "accountStatus|1-10",
+               "rule": "1",
                "array": [],
                "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
-          },
-          {
-               "id": "0103",
-               "kind": "string",
-               "name": "class",
-               "rule": "com.aliyun.csc.sls.model.AccountModel",
-               "array": [],
-               "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
-          },
-          {
-               "id": "0104",
-               "kind": "string",
-               "name": "lastModifyTime",
-               "rule": "2015-01-20 21:47:35",
-               "array": [],
-               "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
+               "ruleVerify": "rule_1426154188000",
+               "remark": "我是1～10的随机数"
           },
           {
                "id": "0105",
@@ -72,7 +56,8 @@
                "rule": "",
                "array": [],
                "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
+               "ruleVerify": "rule_1426154188000",
+               "remark": "我是对象"
           },
           {
                "id": "010501",
@@ -84,67 +69,45 @@
                "ruleVerify": "rule_1426154188000"
           },
           {
-               "id": "010502",
-               "kind": "mock",
-               "name": "project",
-               "rule": 10,
-               "array": [],
-               "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
-          },
-          {
-               "id": "0106",
-               "kind": "string",
-               "name": "status",
-               "rule": "normal",
-               "array": [],
-               "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
-          },
-          {
-               "id": "02",
-               "kind": "string",
-               "name": "message",
-               "rule": "successful",
-               "array": [],
-               "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
-          },
-          {
-               "id": "03",
-               "kind": "mock",
-               "name": "responseDataNames",
-               "rule": "[]",
-               "array": [],
-               "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
-          },
-          {
                "id": "04",
-               "kind": "object",
-               "name": "responseDatas",
-               "rule": "",
+               "kind": "mock",
+               "name": "responseDatas|1",
+               "rule": "['A','B','C']",
                "array": [],
                "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
+               "ruleVerify": "rule_1426154188000",
+               "remark": "我是A、B、C随机出现"
           },
           {
                "id": "05",
                "kind": "mock",
-               "name": "success",
+               "name": "success|1",
                "rule": true,
                "array": [],
                "nameVerify": "name_1426154188000",
-               "ruleVerify": "rule_1426154188000"
+               "ruleVerify": "rule_1426154188000",
+               "remark": "我是true／false 随机出现"
           },
           {
-               "id": "010503",
-               "kind": "string",
-               "name": "fsdfdsf",
-               "rule": "我我",
+               "id": "06",
+               "kind": "array(object)",
+               "name": "array|1-10",
+               "rule": "--",
                "array": [],
-               "nameVerify": "name_1433156103000",
-               "ruleVerify": "rule_1433156103000"
+               "nameVerify": "name_1450314749000",
+               "ruleVerify": "rule_1450314749000",
+               "remark": "我是数组1～10随机出现"
+          },
+          {
+               "id": "0601",
+               "kind": "string",
+               "name": "name",
+               "rule": "10",
+               "array": [
+                    "06"
+               ],
+               "nameVerify": "name_1450314763000",
+               "ruleVerify": "rule_1450314763000"
           }
      ],
      "reqError": [
@@ -153,7 +116,7 @@
      "docError": [],
      "interfaceUrl": "/demo/jsondemo.json",
      "interfaceName": "/demo/sadsad.json",
-     "lazyLoad": "yes",
+     "lazyLoad": "no",
      "responseParametersType": false,
      "responseJson": "{\"adasd\":1213213}"
 }
